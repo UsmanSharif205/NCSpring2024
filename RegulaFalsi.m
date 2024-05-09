@@ -1,4 +1,4 @@
-%Using the Regula Falsi method for 4 iterations:
+% Solve f(x) = x^3 - 2x^2 - 5x + 6 Using the Regula Falsi method for 4 iterations:
 
 %matlab code
 % Define the cubic function
