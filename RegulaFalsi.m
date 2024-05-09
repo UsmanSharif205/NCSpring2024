@@ -1,4 +1,4 @@
-Using the Regula Falsi method for 4 iterations:
+%Using the Regula Falsi method for 4 iterations:
 
 %matlab code
 % Define the cubic function
