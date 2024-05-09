@@ -1,17 +1,17 @@
-Solve for the root of the cubic function  f(x) = x^3 - 2x^2 - 5x + 6 using the Newton-Raphson method for 4 iterations.
+%Solve for the root of the cubic function  f(x) = x^3 - 2x^2 - 5x + 6 using the Newton-Raphson method for 4 iterations.
 
-Newton-Raphson Method
+%Newton-Raphson Method
 
-The Newton-Raphson method is an iterative approach to find the roots (zeros) of a function. It utilizes the following formula to update the guess (x₀) for the root in each iteration:
+%The Newton-Raphson method is an iterative approach to find the roots (zeros) of a function. It utilizes the following formula to update the guess (x₀) for the root in each iteration:
 
-x_(n+1) = x_n - f(x_n) / f'(x_n)
+% x_(n+1) = x_n - f(x_n) / f'(x_n)
 
-where:
+%where:
 
-* x_(n+1) is the improved guess for the root in the (n+1)th iteration.
-* x_n is the current guess for the root in the nth iteration.
-* f(x_n) is the function's value at the current guess (x_n).
-* f'(x_n) is the derivative of the function evaluated at the current guess (x_n).
+%* x_(n+1) is the improved guess for the root in the (n+1)th iteration.
+%* x_n is the current guess for the root in the nth iteration.
+%* f(x_n) is the function's value at the current guess (x_n).
+%* f'(x_n) is the derivative of the function evaluated at the current guess (x_n).
 
 % Define the cubic function
 function y = f(x)
